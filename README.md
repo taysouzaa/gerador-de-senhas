@@ -46,20 +46,37 @@ O **Gerador de Senhas Seguras** é uma ferramenta de linha de comando (CLI) escr
 
 ```text
 .
-├─ index.ts              ← entrypoint principal
-├─ cli.ts                ← interface de linha de comando
-├─ app.ts                ← lógica da aplicação
-├─ passwordGenerator.ts  ← algoritmo de geração de senha
+├─ src/
+│  ├─ app.ts                    ← entrypoint: prompts com inquirer
+│  ├─ cli.ts                    ← entrypoint alternativo: readline + cópia automática
+│  ├─ index.ts                  ← tipos compartilhados (PasswordOptions)
+│  └─ utils/
+│     └─ passwordGenerator.ts   ← algoritmo de geração
 ├─ package.json
 └─ tsconfig.json
 ```
+
+São duas interfaces sobre o mesmo gerador: `app.ts` usa prompts do **inquirer**; `cli.ts` usa **readline** e copia a senha para a área de transferência ao final.
+
+## Pré-requisitos
+
+- **Node.js 18+**
+- npm 9+
 
 ## Rodar local
 
 ```bash
 npm install
-npm start
+npm start          # interface com inquirer
 ```
+
+Interface alternativa, com cópia automática:
+
+```bash
+npm run cli
+```
+
+Outros comandos: `npm run typecheck` (`tsc --noEmit`) e `npm run build` (compila para `dist/`).
 
 ## Licença
 
