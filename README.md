@@ -5,7 +5,7 @@
 ![Status](https://img.shields.io/badge/status-concluído-22c55e)
 ![TypeScript](https://img.shields.io/badge/TypeScript-CLI-3178c6?logo=typescript)
 ![Node](https://img.shields.io/badge/runtime-Node.js-339933?logo=nodedotjs)
-![License](https://img.shields.io/badge/license-MIT-green)
+![Licença](https://img.shields.io/badge/licença-proprietária-red)
 
 > **Estado:** ativo · **Última revisão:** 2026-08-10
 
@@ -63,4 +63,4 @@ npm start
 
 ## Licença
 
-MIT — veja [LICENSE](./LICENSE)
+Licença proprietária — todos os direitos reservados. O código pode ser lido para avaliação profissional ou estudo; qualquer reuso, cópia, modificação ou uso comercial exige autorização prévia e por escrito da autora. Ver [LICENSE](./LICENSE).
