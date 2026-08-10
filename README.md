@@ -7,7 +7,9 @@
 ![Node](https://img.shields.io/badge/runtime-Node.js-339933?logo=nodedotjs)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-## Visão do Projeto
+> **Estado:** ativo · **Última revisão:** 2026-08-10
+
+## Visão geral
 
 O **Gerador de Senhas Seguras** é uma ferramenta de linha de comando (CLI) escrita em TypeScript que cria senhas aleatórias com base em critérios configurados pelo usuário. Construído com foco em segurança, performance e simplicidade de uso.
 
@@ -18,7 +20,7 @@ O **Gerador de Senhas Seguras** é uma ferramenta de linha de comando (CLI) escr
 - Indica visualmente a força da senha gerada.
 - Copia automaticamente a senha para a área de transferência.
 
-## O Que Foi Desenvolvido
+## O que foi desenvolvido
 
 ### 1. Geração de Senhas
 - Algoritmo de aleatoriedade com critérios configuráveis.
@@ -34,13 +36,13 @@ O **Gerador de Senhas Seguras** é uma ferramenta de linha de comando (CLI) escr
 - TypeScript estrito com tipagem completa.
 - Módulos separados por responsabilidade.
 
-## Stack Técnica
+## Stack
 
 - **Linguagem:** TypeScript
 - **Runtime:** Node.js
 - **Interface:** CLI interativa
 
-## Estrutura do Projeto
+## Estrutura do projeto
 
 ```text
 .
@@ -52,7 +54,7 @@ O **Gerador de Senhas Seguras** é uma ferramenta de linha de comando (CLI) escr
 └─ tsconfig.json
 ```
 
-## Como Executar
+## Rodar local
 
 ```bash
 npm install
